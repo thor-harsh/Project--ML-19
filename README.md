@@ -14,6 +14,7 @@
 Based on the results of those actions, rewards (1) or penalties (0) are given for that action to the machine. Further actions are performed in order to maximize the reward that may improve future performance. Suppose a robot has to pick several cans and put them in a container.
 Each time it puts the can to the container, it will memorize the steps followed and train itself to perform the task with better speed and precision (reward).
 If the Robot is not able to put the can in the container, it will not memorize that procedure (hence speed and performance will not improve) and will be considered as a penalty.<br></br>
+Thompson Sampling has the advantage of the tendency to decrease the search as we get more and more information, which mimics the desirable trade-off in the problem, where we want as much information as possible in fewer searches. Hence, this Algorithm has a tendency to be more “search-oriented” when we have fewer data and less “search-oriented” when we have a lot of data.<br></br>
 
   
 **Important- Note: Explore the dataset once before going through the code.**
